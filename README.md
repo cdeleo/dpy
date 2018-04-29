@@ -34,7 +34,7 @@ You don't have to inject all of your arguments!
     
     Injectable.value(where='California')
     
-    Go('now', how='car')  # Invokes the function `Go` with `when`=='now', `how`=='car', and `where`=='here'.
+    Go('now', how='car')  # Invokes the function `Go` with `when`=='now', `how`=='car', and `where`=='California'.
     # "We need the California car, now!" is printed.
 
 ### Scoped
