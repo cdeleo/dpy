@@ -174,7 +174,7 @@ def _FillInInjections(injections, arguments):
       if _IN_TEST_MODE:
         if _TEST_SCOPE is None:
           raise TestInjectionsNotSetupError(
-              'Test injections have not been setup.')
+              'Test injections have not been set up.')
         arguments[injection] = _TEST_SCOPE[injection]()
       else:
         arguments[injection] = injection_scope_map[injection].callable()
